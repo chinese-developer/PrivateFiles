@@ -1,0 +1,6 @@
+https://segmentfault.com/a/1190000014992947
+
+Pip 安装
+
+1.curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py   # 下载安装脚本
+2.sudo python3 get-pip.py    # 运行安装脚本。

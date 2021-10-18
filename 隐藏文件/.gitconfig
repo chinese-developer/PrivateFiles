@@ -1,0 +1,21 @@
+[core]
+	excludesfile = /Users/nemo/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+[commit]
+	template = /Users/nemo/.stCommitMsg
+[credential]
+	helper = store
+[push]
+	default = simple
+[user]
+	name = chinese-developer
+	email = privateemailmaster@gmail.com
+
+#设置完全局配置后，记得要给工作项目中单独配置用户名，不然提交代码记录名字使用的是 chinese-developer
